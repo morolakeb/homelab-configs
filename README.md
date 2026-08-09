@@ -18,6 +18,7 @@ Click into the folders below to view the specific deployment notes, architecture
 *   📁 **[/wazuh](./wazuh)** - SIEM deployment notes, custom decoders, and agent configurations *(Currently undergoing an active architectural rebuild)*.
 *   📁 **[/rhel](./rhel)** - Bash scripts, automation, and practical labs for RHCSA exam preparation.
 *   📁 **[/windows-server](./windows-server)** - Active Directory policies and event logging configurations.
+*   📁 **[/multi-cloud-honeypot](./multi-cloud-honeypot)** - Vulnerable infrastructure deployment across AWS and Azure, Microsoft Sentinel SIEM integration, and live threat hunting.
 
 ## Current Objectives
 - Maintain strict version control over all infrastructure changes.
