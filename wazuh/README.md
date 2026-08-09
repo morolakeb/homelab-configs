@@ -30,3 +30,21 @@ Once the central manager is fully stabilized, Wazuh agents will be deployed to m
 ├── rules/
 │   └── (Planned) custom-alerts.xml
 └── README.md
+## 🚧 Active Rebuild & Troubleshooting Log
+
+As part of continuous improvement, I am currently re-architecting this Wazuh deployment to resolve initial deployment instabilities and establish a cleaner baseline for endpoint logging. 
+
+### Phase 1: Teardown & Environment Prep
+* **Status:** In Progress
+* **Objective:** Completely remove the legacy Wazuh installation and provision a clean virtual environment.
+* **Notes:** *(Add a brief note here about how you removed the old instance, e.g., "Deleted old VM instance in VMware Workstation and allocated 8GB RAM/4 vCPUs for the new centralized manager.")*
+
+### Phase 2: Manager & Indexer Deployment
+* **Status:** Pending
+* **Objective:** Install the Wazuh central manager and verify web interface connectivity.
+* **Challenges Anticipated/Resolved:** *(Leave this blank for now, and fill it in if you hit a snag during the installation!)*
+
+### Phase 3: Agent Authentication & Connectivity
+* **Status:** Pending
+* **Objective:** Deploy Wazuh agents to the Windows Server 2022 and Linux instances and ensure logs are successfully reaching the SIEM.
+* **Notes:** *(Document any firewall rules you had to adjust in pfSense to allow the agents to communicate with the manager.)*
