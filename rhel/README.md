@@ -25,11 +25,8 @@ These systems serve a dual purpose: simulating enterprise Linux endpoints for SI
 │   └── (Planned) sshd_config_baseline
 └── README.md
 ```
-📚 RHCSA Study & Automation Objectives
-[ ] Write and execute a Bash script to automate local user provisioning and permission assignment.
-
-[ ] Document the process of configuring and expanding Logical Volumes (LVM) without downtime.
-
-[ ] Create a custom firewalld zone and configure strict ingress rules for homelab services.
-
-[ ] Analyze SELinux logs to identify and resolve permission denials for a custom service.
+## 📚 RHCSA Study & Automation Objectives
+- [ ] Write and execute a Bash script to automate local user provisioning and permission assignment.
+- [ ] Document the process of configuring and expanding Logical Volumes (LVM) without downtime.
+- [ ] Create a custom `firewalld` zone and configure strict ingress rules for homelab services.
+- [ ] Analyze SELinux logs to identify and resolve permission denials for a custom service.
