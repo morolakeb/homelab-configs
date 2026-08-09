@@ -34,7 +34,7 @@ The primary objective of this project is to deploy intentionally vulnerable infr
 │   └── (Planned) global-attack-map.png
 └── README.md
 ```
-Ongoing Objectives
+## Ongoing Objectives
 [ ] Provision the vulnerable AWS and Azure virtual machines.
 
 [ ] Successfully connect both environments to the Azure Log Analytics Workspace.
