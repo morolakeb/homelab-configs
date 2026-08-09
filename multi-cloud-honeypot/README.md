@@ -35,10 +35,7 @@ The primary objective of this project is to deploy intentionally vulnerable infr
 └── README.md
 ```
 ## Ongoing Objectives
-[ ] Provision the vulnerable AWS and Azure virtual machines.
-
-[ ] Successfully connect both environments to the Azure Log Analytics Workspace.
-
-[ ] Export custom KQL queries used to identify the top 10 attacking IP addresses.
-
-[ ] Capture and upload screenshots of the Sentinel visual attack map.
+- [ ] Provision the vulnerable AWS and Azure virtual machines.
+- [ ] Successfully connect both environments to the Azure Log Analytics Workspace.
+- [ ] Export custom KQL queries used to identify the top 10 attacking IP addresses.
+- [ ] Capture and upload screenshots of the Sentinel visual attack map.
