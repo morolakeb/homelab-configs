@@ -30,6 +30,7 @@ Once the central manager is fully stabilized, Wazuh agents will be deployed to m
 ├── rules/
 │   └── (Planned) custom-alerts.xml
 └── README.md
+```
 ## 🚧 Active Rebuild & Troubleshooting Log
 
 As part of continuous improvement, I am currently re-architecting this Wazuh deployment to resolve initial deployment instabilities and establish a cleaner baseline for endpoint logging. 
