@@ -8,9 +8,9 @@ The primary purpose of this lab is to simulate real-world enterprise environment
 ## Core Infrastructure
 - **Hypervisor:** VMware Workstation Pro
 - **Network Perimeter / Firewall:** pfSense
-- **SIEM / Threat Detection:** Wazuh
-- **Systems / Endpoints:** Windows Server 2022 (Active Directory), Red Hat Enterprise Linux (RHEL), AlmaLinux
-
+- **SIEM / Threat Detection:** Wazuh, Microsoft Sentinel
+- **Systems / Endpoints:** Windows Server 2022 (Active Directory), Red Hat Enterprise Linux (RHEL), AlmaLinux, AWS & Azure VMs
+  
 ## Repository Directory
 Click into the folders below to view the specific deployment notes, architecture details, and configuration backups for each tool:
 
