@@ -32,8 +32,9 @@
   </rule>
 
   <!-- Phase 2: pfSense Firewall Drops -->
+
 <rule id="100011" level="5">
-    <program_name>filterlog</program_name>
+    <decoded_as>pfsense-filterlog</decoded_as>
     <match>block</match>
     <description>pfSense: Firewall blocked network traffic.</description>
     <group>firewall_drop, pci_dss_1.3.3,</group>
