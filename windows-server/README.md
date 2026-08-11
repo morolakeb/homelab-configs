@@ -33,4 +33,4 @@ This Active Directory environment is being actively integrated with the homelab'
 - [x] Document the step-by-step promotion of the Windows Server to a Domain Controller.
 - [x] Export and upload HTML reports of the applied security Group Policy Objects.
 - [x] Write and test PowerShell scripts for automated user onboarding and offboarding.
-- [ ] Successfully validate the ingestion of Windows Security Event logs into the Wazuh dashboard.
+- [x] Successfully validate the ingestion of Windows Security Event logs into the Wazuh dashboard.
