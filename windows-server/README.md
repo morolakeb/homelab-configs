@@ -29,7 +29,7 @@ This Active Directory environment is being actively integrated with the homelab'
 │   └── (Planned) bulk-user-provisioning.ps1
 └── README.md
 ```
-## Ongoing Objectives
+### Completed Objectives
 - [x] Document the step-by-step promotion of the Windows Server to a Domain Controller.
 - [x] Export and upload HTML reports of the applied security Group Policy Objects.
 - [x] Write and test PowerShell scripts for automated user onboarding and offboarding.
