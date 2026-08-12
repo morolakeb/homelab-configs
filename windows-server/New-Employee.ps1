@@ -17,8 +17,8 @@ param (
 # 1. Define Standardized Variables
 $Username = "$($FirstName.Substring(0,1).ToLower())$($LastName.ToLower())" 
 $UserPrincipalName = "$Username@securelab.local" 
-$TempPassword = "TempPassword123!"
-$SecurePassword = ConvertTo-SecureString $TempPassword -AsPlainText -Force
+
+$SecurePassword = Read-Host -Prompt "Enter a temporary password for $($Username)" -AsSecureString
 
 # 2. Define the Target Organizational Unit (OU)
 $TargetOU = "OU=Employees,DC=securelab,DC=local" 
