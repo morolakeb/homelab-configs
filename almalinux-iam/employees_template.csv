@@ -1,0 +1,3 @@
+username,group,password
+jdoe,developers,<INSERT_SECURE_PASSWORD>
+jsmith,hr,<INSERT_SECURE_PASSWORD>
